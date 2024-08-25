@@ -71,11 +71,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-facebook_id: # your facebook id
-github_username: # your GitHub user name
+facebook_id: moiddda
+github_username: moidda
+linkedin_username: moidda
+scholar_userid: vLUwJAUAAAAJ
 instagram_id: # your instagram id
-linkedin_username: # your LinkedIn user name
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 acm_id: # your dl.acm.org/profile/id
 blogger_url: # your blogger URL
 bluesky_url: # your bluesky URL
