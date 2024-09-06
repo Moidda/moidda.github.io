@@ -11,13 +11,11 @@ profile:
   more_info: >
     <p>Dhaka, Bangladesh</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello strangers on the internet. I am Mehedi Hasan, currently working as a Software Engineer at a Dhaka and California based startup [Chaldal Ltd.](https://chaldal.tech/). I am involved in R&D projects that are targeted to solve real life difficult problems like predicting the traffic in one of world's most densely populated cities, or designing a distributed system that supports a user base of hundred thousand individuals each day. My research interest lies in **Human Computer Interaction**, **Interactive systems**, **Computer Vision**, **Predictive models**
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I love travelling and discovering what the world has to offer in my naked eyes. I have a dream of going on a roadtrip for months, covering as many countries I can. I enjoy playing video games and also making them. I make small games on my own whenever I get free time to do it.
