@@ -1,14 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Moidda
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - Drops-of-Life
+  - Code_Samurai_2022
+  - Trapped-GameJam-2023
+  - P5js-Raycasting
+  - DropsOfLife
+  - xv6-Memory-Management
+  - Hand-Gesture-Based-PC-Controller
+  - chaldaal
