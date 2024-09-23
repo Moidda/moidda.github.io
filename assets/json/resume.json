@@ -16,7 +16,25 @@
       "startDate": "2018-03-31",
       "endDate": "2023-05-31",
       "score": "",
-      "courses": ["Theory of Relativity"]
+      "courses": [
+        "Structured Programming Language",
+        "Object Oriented Programming",
+        "Data Structures and Algorithms",
+        "Database",
+        "Computer Architecture",
+        "Compiler",
+        "Software Engineering",
+        "Microprocessors, Microcontrollers, and Embedded Systems",
+        "Operating System",
+        "Artificial Intelligence",
+        "Computer Networks",
+        "Computer Security",
+        "Software Development",
+        "Computer Graphics",
+        "Basic Graph Theory",
+        "Algorithm Engineering",
+        "Machine Learning"
+      ]
     }
   ],
   "awards": [
