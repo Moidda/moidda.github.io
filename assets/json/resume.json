@@ -16,78 +16,46 @@
       "startDate": "2018-03-31",
       "endDate": "2023-05-31",
       "score": "",
-      "courses": [
-        "Structured Programming Language",
-        "Object Oriented Programming",
-        "Data Structures and Algorithms",
-        "Database",
-        "Computer Architecture",
-        "Compiler",
-        "Software Engineering",
-        "Microprocessors, Microcontrollers, and Embedded Systems",
-        "Operating System",
-        "Artificial Intelligence",
-        "Computer Networks",
-        "Computer Security",
-        "Software Development",
-        "Computer Graphics",
-        "Basic Graph Theory",
-        "Algorithm Engineering",
-        "Machine Learning"
-      ]
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "5th/511 teams",
+      "date": "",
+      "awarder": "Code Samurai Hackathon 2022",
+      "url": "https://bjitgroup.com/news-details/du-cse-and-bjit-organized-biggest-inter-university-hackathon-of-the-year-code-samurai-2022",
+      "summary": "CODE SAMURAI is Bangladesh's largest hackathon contest, designed to discover and train young engineers who will lead the future of the IT industry in Bangladesh and Japan."
+    },
+    {
+      "title": "8th/86 teams",
+      "data": "",
+      "awarder": "BUET CSE Fest Inter University Programming Contest",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "title": "10th/84 teams",
+      "data": "",
+      "awarder": "DUET Inter University Programming Contest",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "title": "13th/59 teams",
+      "data": "",
+      "awarder": "National Programming Contest",
+      "url": "",
+      "summary": ""
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "Problem Solving (Intermediate)",
+      "date": "2021-11-27",
+      "issuer": "Hackerrank",
+      "url": "https://www.hackerrank.com/certificates/0f4b48f8f01d",
+      "icon": "fa-brands fa-hackerrank"
     }
   ],
   "publications": [
