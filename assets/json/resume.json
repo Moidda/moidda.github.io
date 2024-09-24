@@ -22,28 +22,28 @@
   "awards": [
     {
       "title": "5th/511 teams",
-      "date": "",
+      "date": "2022-12-20",
       "awarder": "Code Samurai Hackathon 2022",
       "url": "https://bjitgroup.com/news-details/du-cse-and-bjit-organized-biggest-inter-university-hackathon-of-the-year-code-samurai-2022",
       "summary": "CODE SAMURAI is Bangladesh's largest hackathon contest, designed to discover and train young engineers who will lead the future of the IT industry in Bangladesh and Japan."
     },
     {
       "title": "8th/86 teams",
-      "data": "",
+      "data": "2019-01-25",
       "awarder": "BUET CSE Fest Inter University Programming Contest",
-      "url": "",
+      "url": "https://toph.co/c/buet-cse-fest-2019-iupc/standings",
       "summary": ""
     },
     {
       "title": "10th/84 teams",
-      "data": "",
+      "data": "2019",
       "awarder": "DUET Inter University Programming Contest",
       "url": "",
       "summary": ""
     },
     {
       "title": "13th/59 teams",
-      "data": "",
+      "data": "2019",
       "awarder": "National Programming Contest",
       "url": "",
       "summary": ""
@@ -56,6 +56,13 @@
       "issuer": "Hackerrank",
       "url": "https://www.hackerrank.com/certificates/0f4b48f8f01d",
       "icon": "fa-brands fa-hackerrank"
+    },
+    {
+      "name": "Max Rating 1871",
+      "date": "2020-05-16",
+      "issuer": "Codeforces",
+      "url": "https://codeforces.com/profile/moidda",
+      "icon": "fa-sharp fa-solid fa-chart-simple"
     }
   ],
   "publications": [
