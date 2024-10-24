@@ -77,7 +77,7 @@ const Portfolio = () => {
       <div className="ml-64 flex-1 p-8">
         <div id="about" className="min-h-screen">
           <h1 className="text-5xl font-bold mb-2">
-            KHANDAKER ABRAR <span className="text-[#c39b8f]">NADIB</span>
+            Mehedi <span className="text-[#c39b8f]">Hasan</span>
           </h1>
           <div className="mb-4">
             <span>DHAKA, BANGLADESH</span>
@@ -90,8 +90,8 @@ const Portfolio = () => {
           <div className="space-y-6 text-gray-600">
             <p>
               I'm a Full Stack Software Engineer at{' '}
-              <a href="#" className="text-[#c39b8f] hover:underline">Optimizely</a>
-              {' '}with three years of experience. I graduated from{' '}
+              <a href="#" className="text-[#c39b8f] hover:underline">Chaldal</a>{' '}
+              with three years of experience. I graduated from{' '}
               <a href="#" className="text-[#c39b8f] hover:underline">
                 Bangladesh University of Engineering and Technology (BUET)
               </a>
