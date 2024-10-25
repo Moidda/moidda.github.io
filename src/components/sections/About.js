@@ -6,7 +6,7 @@ import SocialLinks from '../common/SocialLinks';
 const About = () => {
   return (
     <div id="about" className="min-h-screen">
-      <h1 className="text-center text-6xl font-serif font-bold mt-6">
+      <h1 className="text-center text-6xl font-serif font-bold pt-5">
         Mehedi <span className="text-[#0ad3f2]">Hasan</span>
       </h1>
       <span>DHAKA, BANGLADESH</span>
@@ -21,15 +21,15 @@ const About = () => {
         </p>
 
         <p>
-            Outside of work, I am involved in academic research. My primary area of
-            research experience is in <b>Human Computer Interaction</b>. I am also
-            passionate about <b>Visualization</b>, <b>VR/AR</b>, and{' '}
-            <b>Ubiquitous technologies</b>. The goal that I tend to seek
-            while working on these projects is to make technology more accessible
+            Outside of work, I am involved in academic research. My primary area
+            of research experience is in <b>Human Computer Interaction</b>.
+            I am also passionate about <b>Visualization</b>, <b>VR/AR</b>, and{' '}
+            <b>Ubiquitous technologies</b>. I am also interested in{' '}
+            <b>Machine Learning</b> and <b>Computer Vision</b> and how they can
+            be used to solve real-world problems. The goal that I tend to seek
+            while working in research is to make technology more accessible
             and user-friendly for everyone while also ensuring that it is
-            secure and reliable. I am also interested in <b>Machine Learning</b>{' '}
-            and <b>Computer Vision</b> and how they can be used to solve
-            real-world problems.
+            secure and reliable.
         </p>
 
         <p>
@@ -49,7 +49,7 @@ const About = () => {
             about traveling, films, and video games. Having explored over 20 cities
             across 5 countries, I am on a mission to visit 30 countries by the
             age of 40. I love playing video games and play competitive FPS matches
-            with friends and have also explored a bit of <b>Game Development</b>,
+            with friends. I have also explored a bit of <b>Game Development</b>,
             creating several games on my own for fun. At home, I am a proud cat parent,
             sharing a special bond with my feline best friend. My wife and I also
             work together to rescue and care for stray cats in our neighborhood,
