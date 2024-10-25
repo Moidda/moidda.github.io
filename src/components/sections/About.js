@@ -1,62 +1,60 @@
 import React from 'react';
 import { Linkedin, Github } from 'lucide-react';
+import URL from '../common/Url';
+import SocialLinks from '../common/SocialLinks';
 
 const About = () => {
   return (
     <div id="about" className="min-h-screen">
-      <h1 className="text-center text-6xl font-serif font-bold p-6">
+      <h1 className="text-center text-6xl font-serif font-bold mt-6">
         Mehedi <span className="text-[#0ad3f2]">Hasan</span>
       </h1>
-      <div className="mb-4">
-        <span>DHAKA, BANGLADESH</span>
-        <span className="mx-2">•</span>
-        <a href="mailto:mhasan912@@gmail.com" className="text-[#c39b8f] hover:underline">
-          mhasan912@gmail.com
-        </a>
-      </div>
+      <span>DHAKA, BANGLADESH</span>
+      <SocialLinks />
 
-      <div className="space-y-6 text-gray-600">
+      <div className="text-left space-y-6 text-gray-600">
         <p>
-          I'm a Full Stack Software Engineer at{' '}
-          <a href="#" className="text-[#c39b8f] hover:underline">Optimizely</a>
-          {' '}with three years of experience. I graduated from{' '}
-          <a href="#" className="text-[#c39b8f] hover:underline">
-            Bangladesh University of Engineering and Technology (BUET)
-          </a>
-          {' '}with a BSc in Computer Science and Engineering.
+            I am a Software Engineer (L3) <b>Specializing in Research and Algorithms</b> at{' '}
+            <URL url="https://chaldal.tech/" text="Chaldal" />. I graduated from{' '}
+            <URL url="https://www.buet.ac.bd/web/#/" text="Bangladesh University of Engineering and Technology (BUET)" />{' '}
+            with a B.Sc in Computer Science and Engineering.
         </p>
 
         <p>
-          My research interest is at the intersection of Human-Computer Interaction (HCI), 
-          Applied Data Science, Visualization as well as Privacy and Security. Specifically, 
-          I am interested in conducting research focusing on understanding and improving user 
-          experiences in digital environments. Please visit my{' '}
-          <a href="#" className="text-[#c39b8f] hover:underline">Google Scholar</a>
-          {' '}profile to see my publications.
+            Outside of work, I am involved in academic research. My primary area of
+            research experience is in <b>Human Computer Interaction</b>. I am also
+            passionate about <b>Visualization</b>, <b>VR/AR</b>, and{' '}
+            <b>Ubiquitous technologies</b>. The goal that I tend to seek
+            while working on these projects is to make technology more accessible
+            and user-friendly for everyone while also ensuring that it is
+            secure and reliable. I am also interested in <b>Machine Learning</b>{' '}
+            and <b>Computer Vision</b> and how they can be used to solve
+            real-world problems.
         </p>
 
         <p>
-          As part of my undergrad thesis, I worked with{' '}
-          <a href="#" className="text-[#c39b8f] hover:underline">Dr. Sadia Sharmin</a>
-          , Associate Professor, CSE, BUET, in the field of Social Computing, HCI, and 
-          Applied Machine Learning. We devised an interaction based method for analyzing 
-          news credibility on Facebook.
+            Through my work experience, I have gained expertise in{' '}
+            <b>Algorithms</b> and <b>Systems</b>, including <b>Networking</b>,{' '}
+            <b>Distributed Systems</b> and <b>System Design</b>. I have worked
+            directly with server infrastructure, which has exposed me to the
+            complexities of a distributed system, which has inspired me to
+            tackle and gain a deeper understanding to contribute to solving these
+            challenges in Networking and <b>Cloud Computing</b>. I am interested in how
+            a large scale system handle secure network communication and
+            resource management at scale, especially when integrating machine learning components.
         </p>
 
         <p>
-          Complementing my scholarly pursuits, I am passionate about traveling, films, 
-          competitive FPS gaming, and arts. I embrace diverse cultures and foster a 
-          nuanced worldview.
+            Beyond my academic and professional pursuits, I am deeply passionate
+            about traveling, films, and video games. Having explored over 20 cities
+            across 5 countries, I am on a mission to visit 30 countries by the
+            age of 40. I love playing video games and play competitive FPS matches
+            with friends and have also explored a bit of <b>Game Development</b>,
+            creating several games on my own for fun. At home, I am a proud cat parent,
+            sharing a special bond with my feline best friend. My wife and I also
+            work together to rescue and care for stray cats in our neighborhood,
+            a cause close to our hearts.
         </p>
-
-        <div className="flex space-x-4 mt-6">
-          <a href="#" className="text-gray-600 hover:text-[#c39b8f]">
-            <Linkedin size={32} />
-          </a>
-          <a href="#" className="text-gray-600 hover:text-[#c39b8f]">
-            <Github size={32} />
-          </a>
-        </div>
       </div>
     </div>
   );
