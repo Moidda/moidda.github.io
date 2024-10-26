@@ -4,12 +4,14 @@ import URL from '../common/Url';
 const About = () => {
   return (
     <div id="about" className="min-h-screen">
-      <h1 className="text-center text-6xl font-serif font-bold pt-5">
+      <h1 className="text-center text-4xl font-serif font-bold pt-5">
         Mehedi <span className="text-[#5b6366]">Hasan</span>
       </h1>
-      <span>DHAKA, BANGLADESH</span>
+      <span>Software Engineer, Researcher</span>
+      <br />
+      <span>Dhaka, Bangladesh</span>
 
-      <div className="text-left space-y-6 text-gray-600">
+      <div className="text-left space-y-6 text-black mt-4">
         <p>
             I am a Software Engineer (L3) <b>Specializing in Research and Algorithms</b> at{' '}
             <URL url="https://chaldal.tech/" text="Chaldal" />. I graduated from{' '}
