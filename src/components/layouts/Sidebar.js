@@ -6,7 +6,9 @@ import SocialLinks from '../common/SocialLinks';
 const Sidebar = ({ activeSection, scrollToSection }) => {
   return (
     <div className="fixed w-64 h-screen bg-[#1c1c1d] p-8">
-      <div className="mb-4">
+      <div
+        className="mb-4 cursor-pointer"
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
         <img
           src={URLS.PROFILE}
           alt="Profile"
@@ -14,7 +16,9 @@ const Sidebar = ({ activeSection, scrollToSection }) => {
         />
       </div>
       
-      <h1 className="text-center text-base font-serif font-bold mb-2">
+      <h1
+        className="text-center text-base font-serif font-bold mb-2 cursor-pointer"
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
         <span className="text-white">Mehedi </span>
         <span className="text-white">Hasan</span>
       </h1>
