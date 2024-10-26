@@ -5,9 +5,9 @@ import Publications from './sections/Publications';
 import ResearchExperience from './sections/ResearchExperience';
 import Education from './sections/Education';
 import WorkExperience from './sections/WorkExperience';
-import Skills from './sections/Skills';
 import Awards from './sections/Awards';
 import Resume from './sections/Resume';
+import { SECTIONS } from '../constants/Sections';
 
 const Portfolio = () => {
   const [activeSection, setActiveSection] = useState('about');
@@ -22,19 +22,8 @@ const Portfolio = () => {
   useEffect(() => {
     const handleScroll = () => {
       const currentPosition = window.scrollY;
-      
-      const sections = [
-        'about',
-        'publications',
-        'research-experience',
-        'education',
-        'work-experience',
-        'skills',
-        'awards',
-        'resume'
-      ];
 
-      sections.forEach((id) => {
+      Object.values(SECTIONS).forEach(({ id }) => {
         const element = document.getElementById(id);
         if (element) {
           const { offsetTop, offsetHeight } = element;
@@ -62,7 +51,6 @@ const Portfolio = () => {
         <ResearchExperience />
         <Education />
         <WorkExperience />
-        <Skills />
         <Awards />
         <Resume />
       </div>

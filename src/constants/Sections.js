@@ -1,34 +1,43 @@
 export const SECTIONS = {
     ABOUT: {
         id: 'about',
-        label: 'ABOUT'
+        label: 'ABOUT',
+        title: 'About Me'
     },
     PUBLICATIONS: {
         id: 'publications',
-        label: 'PUBLICATIONS'
+        label: 'PUBLICATIONS',
+        title: 'Publications'
     },
     RESEARCH_EXPERIENCE: {
         id: 'research-experience',
-        label: 'RESEARCH EXPERIENCE'
+        label: 'RESEARCH EXPERIENCE',
+        title: 'Research Experience'
     },
     EDUCATION: {
         id: 'education',
-        label: 'EDUCATION'
+        label: 'EDUCATION',
+        title: 'Education'
     },
     WORK_EXPERIENCE: {
         id: 'work-experience',
-        label: 'WORK EXPERIENCE'
+        label: 'WORK EXPERIENCE',
+        title: 'Work Experience'
     },
     SKILLS: {
         id: 'skills',
-        label: 'SKILLS'
+        label: 'SKILLS',
+        title: 'Skills',
+        shouldInclude: false
     },
     AWARDS: {
         id: 'awards',
-        label: 'AWARDS'
+        label: 'AWARDS',
+        title: 'Awards'
     },
     RESUME: {
         id: 'resume',
-        label: 'RESUME'
+        label: 'RESUME',
+        title: 'Resume',
     }
 };

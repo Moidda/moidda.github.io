@@ -1,16 +1,13 @@
 import React from 'react';
-import { Linkedin, Github } from 'lucide-react';
 import URL from '../common/Url';
-import SocialLinks from '../common/SocialLinks';
 
 const About = () => {
   return (
     <div id="about" className="min-h-screen">
       <h1 className="text-center text-6xl font-serif font-bold pt-5">
-        Mehedi <span className="text-[#0ad3f2]">Hasan</span>
+        Mehedi <span className="text-[#5b6366]">Hasan</span>
       </h1>
       <span>DHAKA, BANGLADESH</span>
-      <SocialLinks />
 
       <div className="text-left space-y-6 text-gray-600">
         <p>
