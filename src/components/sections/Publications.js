@@ -20,7 +20,12 @@ const Publications = () => {
           </p>
 
           <p>
-          In this work, we propose a novel approach for detecting and predicting trauma vulnerability in individuals by monitoring their attention to threat images using eye-tracking. We utilized a combination of statistical analysis, machine learning models and cognitive psychological theories. To do so, initially, an online survey was conducted with 183 participants to gather information about individuals' previous experiences with trauma. Based on the survey results, an image set was prepared, consisting of four categories: positive, neutral, general threat and trauma-relevant threat. 39 volunteers, categorized into trauma-exposed and non-trauma-exposed groups based on clinical diagnosis and previous treatment, then participated in an eye-tracking experiment, where they were presented with 10 slides containing 4 images from each category; each slide lasting for 6 s. Eye gaze patterns were recorded and processed during this period, which was used to extract different features that were later used for the machine learning models to train on. Our findings revealed that trauma-exposed group showed more attentional bias towards the specific trauma-relevant threat images than the non-trauma-exposed group. Results from training the models suggest that it is highly likely that predicting trauma vulnerability in individuals is possible and this demands further research.
+            In this work, we propose a novel approach for detecting and predicting trauma vulnerability in individuals by monitoring their attention to threat images using eye-tracking. We utilized a combination of statistical analysis, machine learning models and cognitive psychological theories. To do so, initially, an online survey was conducted with 183 participants to gather information about individuals' previous experiences with trauma. Based on the survey results, an image set was prepared, consisting of four categories: positive, neutral, general threat and trauma-relevant threat. 39 volunteers, categorized into trauma-exposed and non-trauma-exposed groups based on clinical diagnosis and previous treatment, then participated in an eye-tracking experiment, where they were presented with 10 slides containing 4 images from each category; each slide lasting for 6 s. Eye gaze patterns were recorded and processed during this period, which was used to extract different features that were later used for the machine learning models to train on. Our findings revealed that trauma-exposed group showed more attentional bias towards the specific trauma-relevant threat images than the non-trauma-exposed group. Results from training the models suggest that it is highly likely that predicting trauma vulnerability in individuals is possible and this demands further research.
+          </p>
+
+          <p>
+            Conference:{' '}
+            <URL url="https://mobiquitous.eai-conferences.org/2023/" text="20th EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services - EAI MobiQuitous 2023" />
           </p>
       </div>
 
@@ -39,7 +44,12 @@ const Publications = () => {
           </p>
 
           <p>
-          The research community has traditionally concentrated on emotion detection in emotion modeling, while emotion generation has garnered less focus. With the rise of artificial intelligence, numerous chatbots have been developed, but there remains a lack of standardized methods to evaluate them. In this study, we evaluate EmoBot, a state-of-the-art emotionally aware chatbot, through the lens of user expectations. By collecting and analyzing user feedback, we identify EmoBot's strengths and weaknesses, providing a basis for future enhancements. We propose targeted improvements to enhance its user experience, especially in areas of underperformance, and offer a framework for assessing emotionally aware chatbots based on user expectations and experiences.
+            The research community has traditionally concentrated on emotion detection in emotion modeling, while emotion generation has garnered less focus. With the rise of artificial intelligence, numerous chatbots have been developed, but there remains a lack of standardized methods to evaluate them. In this study, we evaluate EmoBot, a state-of-the-art emotionally aware chatbot, through the lens of user expectations. By collecting and analyzing user feedback, we identify EmoBot's strengths and weaknesses, providing a basis for future enhancements. We propose targeted improvements to enhance its user experience, especially in areas of underperformance, and offer a framework for assessing emotionally aware chatbots based on user expectations and experiences.
+          </p>
+
+          <p>
+            Conference:{' '}
+            <URL url="https://cse.buet.ac.bd/nsyss2024/" text="11th International Conference on Networking, Systems, and Security - NSysS 2024" />
           </p>
       </div>
 
