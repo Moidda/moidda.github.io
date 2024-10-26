@@ -1,15 +1,6 @@
 import React from 'react';
+import { SECTIONS } from '../../constants/Sections';
 
-const sections = [
-  { id: 'about', label: 'ABOUT' },
-  { id: 'publications', label: 'PUBLICATIONS' },
-  { id: 'research-experience', label: 'RESEARCH EXPERIENCE' },
-  { id: 'education', label: 'EDUCATION' },
-  { id: 'work-experience', label: 'WORK EXPERIENCE' },
-  { id: 'skills', label: 'SKILLS' },
-  { id: 'awards', label: 'AWARDS' },
-  { id: 'resume', label: 'RESUME' }
-];
 
 const Sidebar = ({ activeSection, scrollToSection }) => {
   return (
@@ -23,7 +14,7 @@ const Sidebar = ({ activeSection, scrollToSection }) => {
       </div>
       
       <nav>
-        {sections.map(({ id, label }) => (
+        {Object.values(SECTIONS).map(({ id, label }) => (
           <button
             key={id}
             onClick={() => scrollToSection(id)}
