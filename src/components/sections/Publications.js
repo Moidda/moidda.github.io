@@ -6,7 +6,7 @@ import Publication from '../common/Publication';
 
 const Publications = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen mb-6 mt-6">
       <SectionTitle title={SECTIONS.PUBLICATIONS.title} id={SECTIONS.PUBLICATIONS.id} />
 
       <Publication

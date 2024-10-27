@@ -1,7 +1,7 @@
 import React from 'react';
 import URL from './Url';
 
-const Publication = ({ doi, title, year, collaborators, description, conference }) => {
+const Publication = ({ doi, title, year, collaborators, demo, description, conference }) => {
     return (
         <div className="text-left space-y-2 text-black mt-4">
             <h2 className="flex flex-row items-center justify-between gap-4 text-2xl font-bold">
@@ -25,6 +25,12 @@ const Publication = ({ doi, title, year, collaborators, description, conference 
                         ))}
                     </p>
                 )
+            }
+
+            { demo &&
+                <p className='text-left'>
+                    {demo.title}: <URL url={demo.url} text={demo.text} />
+                </p>
             }
 
             <p>{description}</p>
