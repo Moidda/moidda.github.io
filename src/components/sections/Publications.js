@@ -31,7 +31,6 @@ const Publications = () => {
       />
 
       <Publication
-        doi="#"
         title="Enhancing EmoBot: An In-Depth Analysis of User Expectation and Satisfaction in An Emotion-Aware Chatbot"
         year="2024"
         collaborators={[
