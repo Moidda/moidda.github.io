@@ -1,3 +1,4 @@
+import { COLORS } from '../../constants/Colors';
 import URL from './Url';
 
 const TitleWithYear = ({ title, url, year }) => {
@@ -15,8 +16,8 @@ const TitleWithYear = ({ title, url, year }) => {
     }
     return (
         <h2 className="flex flex-row items-center justify-between gap-4 text-2xl font-bold">
-                {titleComponent}
-                <div className="italic text-right text-xl whitespace-nowrap">{year}</div>
+            {titleComponent}
+            <div className={`italic text-right text-[${COLORS.SIDEBAR_BLACK}] text-xl whitespace-nowrap`}>{year}</div>
         </h2>
     );
 }
