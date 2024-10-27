@@ -12,7 +12,6 @@ const ResearchExperience = () => {
       <SectionTitle title={SECTIONS.RESEARCH_EXPERIENCE.title} id={SECTIONS.RESEARCH_EXPERIENCE.id} />
 
       <Publication
-        doi="#"
         title="Detecting Sentiment in Anonymous Submissions: A Study on User Report Data"
         year="2024"
         collaborators={[
@@ -50,7 +49,6 @@ const ResearchExperience = () => {
       />
 
       <Publication
-        doi="#"
         title="Fine-Tuning GPT-2 for Bengali Auto Text Completion Using Literary Corpus: A Qualitative Analysis"
         year="2023"
         collaborators={[

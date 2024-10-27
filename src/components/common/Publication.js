@@ -2,14 +2,21 @@ import React from 'react';
 import URL from './Url';
 
 const Publication = ({ doi, title, year, collaborators, demo, description, conference }) => {
+    var titleComponent;
+    if (doi) {
+        titleComponent = <URL
+            className="overflow-wrap break-words flex-1"
+            url={doi}
+            text={title} />;
+    }
+    else {
+        titleComponent = <span className="overflow-wrap break-words flex-1">{title}</span>;
+    }
+
     return (
         <div className="text-left space-y-2 text-black mt-4">
             <h2 className="flex flex-row items-center justify-between gap-4 text-2xl font-bold">
-                <URL
-                    className="overflow-wrap break-words flex-1"
-                    url={doi}
-                    text={title} />
-
+                {titleComponent}
                 <div className="italic text-right whitespace-nowrap">{year}</div>
             </h2>
 
