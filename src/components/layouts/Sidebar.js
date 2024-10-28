@@ -2,11 +2,10 @@ import React from 'react';
 import { SECTIONS } from '../../constants/Sections';
 import { URLS } from '../../constants/Urls';
 import SocialLinks from '../common/SocialLinks';
-import { COLORS } from '../../constants/Colors';
 
 const Sidebar = ({ activeSection, scrollToSection }) => {
   return (
-    <div className={`fixed w-64 h-screen bg-[${COLORS.SIDEBAR_BLACK}] p-8`}>
+    <div className="fixed w-64 h-screen bg-sidebar-black p-8">
       <div
         className="mb-4 cursor-pointer"
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>

@@ -9,6 +9,8 @@ module.exports = {
       // Add custom colors to match your design
       colors: {
         'portfolio-brown': '#c39b8f',
+        'sidebar-black': '#1c1c1d',
+        'url-gray': '#5b6366',
       }
     },
   },

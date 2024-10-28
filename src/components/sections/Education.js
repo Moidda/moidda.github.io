@@ -2,7 +2,6 @@ import React from 'react';
 import SectionTitle from '../common/SectionTitle';
 import { SECTIONS } from '../../constants/Sections';
 import TitleWithYear from '../common/TitleWithYear';
-import { COLORS } from '../../constants/Colors';
 
 
 const courses = [
@@ -61,10 +60,10 @@ const Education = () => {
     <div className='min-h-screen'>
         <SectionTitle title={SECTIONS.EDUCATION.title} id={SECTIONS.EDUCATION.id} />
 
-        <div className='text-left space-y-2 text-blue mt-4'>
+        <div className='text-left space-y-2 mt-4'>
           <TitleWithYear title='Bangladesh University of Engineering and Technology (BUET)' year='March 2018 - June 2024' />
-          <p className={`text-lg text-[${COLORS.URL_GRAY}] font-semibold`}>BACHELOR OF SCIENCE</p>
-          <p className={`text-lg text-[${COLORS.URL_GRAY}] font-semibold`}>COMPUTER SCIENCE AND ENGINEERING</p>
+          <p className="text-lg text-url-gray font-semibold">BACHELOR OF SCIENCE</p>
+          <p className="text-lg text-url-gray font-semibold">COMPUTER SCIENCE AND ENGINEERING</p>
           <p>GPA: 3.57/4.00</p>
           <p>Last Two Semesters: 3.82/4.00</p>
 

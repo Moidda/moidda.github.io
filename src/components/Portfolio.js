@@ -42,7 +42,7 @@ const Portfolio = () => {
   }, []);
 
   return (
-    <div className="flex min-h-screen bg-white">
+    <div className="flex min-h-screen">
       <Sidebar activeSection={activeSection} scrollToSection={scrollToSection} />
 
       <div className="ml-64 flex-1 p-8">
