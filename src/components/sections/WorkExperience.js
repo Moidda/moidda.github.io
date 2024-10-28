@@ -61,6 +61,11 @@ const WorkExperience = () => {
         <p className='text-3xl font-semibold'>CHALDAL TECH</p>
 
         <div className='pt-4'>
+          <TitleWithYear title="Software Engineer III" year="Jul 2024 - Present"/>
+          <p className="text-lg text-subtitle-gray font-semibold">SPECIALIZED IN RESEARCH AND ALGORITHMS</p>
+        </div>
+
+        <div className='pt-4'>
           <TitleWithYear title="Software Engineer III" year="Mar 2024 - Jul 2024"/>
           <p className="text-lg text-subtitle-gray font-semibold">LOGISTICS TEAM</p>
         </div>
@@ -70,28 +75,22 @@ const WorkExperience = () => {
           <p className="text-lg text-subtitle-gray font-semibold">DISPATCHER TEAM</p>
         </div>
 
-        <div className='pt-4'>
-          <TitleWithYear title="Software Engineer III" year="Jul 2024 - Present"/>
-          <p className="text-lg text-subtitle-gray font-semibold">SPECIALIZED IN RESEARCH AND ALGORITHMS</p>
-        </div>
 
-        <div className='pt-4'>
-          <span className='text-2xl font-bold'>Projects</span>
-          <div className="grid grid-cols-2 gap-6 mt-6">
-            {experiences.map((course, index) => (
-              <a
-                key={index}
-                className="p-4 rounded-lg border border-gray-200 hover:shadow-md transition-shadow bg-white flex flex-col min-h-[180px]"
-                href={course.url}
-              >
-                <h3 className="font-semibold text-lg mb-2">{course.title}</h3>
-                <div className="text-sm flex flex-col h-full">
-                  <p>{course.description}</p>
-                  <span className='mt-auto'><b className='text-subtitle-gray'>Tech:</b> <span className='italic'>{course.tech}</span></span>
-                </div>
-              </a>
-            ))}
-          </div>
+        <h2 className="text-lg font-bold mb-6 text-center">Notable Projects</h2>
+        <div className="grid grid-cols-2 gap-6 mt-6">
+          {experiences.map((course, index) => (
+            <a
+              key={index}
+              className="p-4 rounded-lg border border-gray-200 hover:shadow-md transition-shadow bg-white flex flex-col min-h-[180px]"
+              href={course.url}
+            >
+              <h3 className="font-semibold text-lg mb-2">{course.title}</h3>
+              <div className="text-sm flex flex-col h-full">
+                <p>{course.description}</p>
+                <span className='mt-auto'><b className='text-subtitle-gray'>Tech:</b> <span className='italic'>{course.tech}</span></span>
+              </div>
+            </a>
+          ))}
         </div>
       </div>
     </div>
