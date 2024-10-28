@@ -8,7 +8,7 @@ import { URLS } from '../../constants/Urls';
 
 const ResearchExperience = () => {
   return (
-    <div className="min-h-screen mb-6">
+    <div className="min-h-screen mt-10">
       <SectionTitle title={SECTIONS.RESEARCH_EXPERIENCE.title} id={SECTIONS.RESEARCH_EXPERIENCE.id} />
 
       <Publication

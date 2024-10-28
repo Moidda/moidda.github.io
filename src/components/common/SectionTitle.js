@@ -7,7 +7,7 @@ const SectionTitle = ({ id, title }) => {
                 height: .5,
                 border: "none"
             }}/>
-            <h1 id={id} className="text-3xl font-bold pt-6">{title}</h1>
+            <h1 id={id} className="text-3xl font-bold pt-10">{title}</h1>
         </div>
     );
 };

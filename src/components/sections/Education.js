@@ -57,15 +57,19 @@ const courses = [
 
 const Education = () => {
   return (
-    <div className='min-h-screen'>
+    <div className='min-h-screen mt-10'>
         <SectionTitle title={SECTIONS.EDUCATION.title} id={SECTIONS.EDUCATION.id} />
 
         <div className='text-left space-y-2 mt-4'>
           <TitleWithYear title='Bangladesh University of Engineering and Technology (BUET)' year='March 2018 - June 2024' />
-          <p className="text-lg text-url-gray font-semibold">BACHELOR OF SCIENCE</p>
-          <p className="text-lg text-url-gray font-semibold">COMPUTER SCIENCE AND ENGINEERING</p>
-          <p>GPA: 3.57/4.00</p>
-          <p>Last Two Semesters: 3.82/4.00</p>
+          <div>
+            <p className="text-lg text-url-gray font-semibold">BACHELOR OF SCIENCE</p>
+            <p className="text-lg text-url-gray font-semibold">COMPUTER SCIENCE AND ENGINEERING</p>
+          </div>
+          <div className='pt-4'>
+            <p>GPA: 3.57/4.00</p>
+            <p>Last Two Semesters: 3.82/4.00</p>
+          </div>
 
           <h2 className="text-lg font-bold mb-6 text-center">Notable Courses</h2>
           <div className="grid grid-cols-2 gap-6">

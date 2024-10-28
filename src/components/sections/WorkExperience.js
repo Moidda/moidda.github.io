@@ -1,9 +1,11 @@
 import React from 'react';
+import SectionTitle from '../common/SectionTitle';
+import { SECTIONS } from '../../constants/Sections';
 
 const WorkExperience = () => {
   return (
-    <div id="work-experience" className="min-h-screen">
-      <h2 className="text-3xl font-bold mb-6">Work Experience</h2>
+    <div className="min-h-screen mt-10">
+      <SectionTitle title={SECTIONS.WORK_EXPERIENCE.title} id={SECTIONS.WORK_EXPERIENCE.id} />
     </div>
   );
 };
