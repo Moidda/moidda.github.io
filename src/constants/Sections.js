@@ -34,10 +34,5 @@ export const SECTIONS = {
         id: 'awards',
         label: 'AWARDS',
         title: 'Awards'
-    },
-    RESUME: {
-        id: 'resume',
-        label: 'RESUME',
-        title: 'Resume',
     }
 };

@@ -6,7 +6,6 @@ import ResearchExperience from './sections/ResearchExperience';
 import Education from './sections/Education';
 import WorkExperience from './sections/WorkExperience';
 import Awards from './sections/Awards';
-import Resume from './sections/Resume';
 import { SECTIONS } from '../constants/Sections';
 
 const Portfolio = () => {
@@ -52,7 +51,6 @@ const Portfolio = () => {
         <Education />
         <WorkExperience />
         <Awards />
-        <Resume />
       </div>
     </div>
   );
