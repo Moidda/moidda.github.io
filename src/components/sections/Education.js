@@ -63,8 +63,8 @@ const Education = () => {
         <div className='text-left space-y-2 mt-4'>
           <TitleWithYear title='Bangladesh University of Engineering and Technology (BUET)' year='March 2018 - June 2024' />
           <div>
-            <p className="text-lg text-url-gray font-semibold">BACHELOR OF SCIENCE</p>
-            <p className="text-lg text-url-gray font-semibold">COMPUTER SCIENCE AND ENGINEERING</p>
+            <p className="text-lg text-subtitle-gray font-semibold">BACHELOR OF SCIENCE</p>
+            <p className="text-lg text-subtitle-gray font-semibold">COMPUTER SCIENCE AND ENGINEERING</p>
           </div>
           <div className='pt-4'>
             <p>GPA: 3.57/4.00</p>

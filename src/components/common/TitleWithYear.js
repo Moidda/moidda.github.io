@@ -16,7 +16,7 @@ const TitleWithYear = ({ title, url, year }) => {
     return (
         <h2 className="flex flex-row items-center justify-between gap-4 text-2xl font-bold">
             {titleComponent}
-            <div className="italic text-right text-url-gray text-xl whitespace-nowrap">{year}</div>
+            <div className="italic text-right text-subtitle-gray text-xl whitespace-nowrap">{year}</div>
         </h2>
     );
 }
