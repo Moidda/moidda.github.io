@@ -78,16 +78,16 @@ const WorkExperience = () => {
 
         <h2 className="text-lg font-bold mb-6 text-center">Notable Projects</h2>
         <div className="grid grid-cols-2 gap-6 mt-6">
-          {experiences.map((course, index) => (
+          {experiences.map((experience, index) => (
             <a
               key={index}
               className="p-4 rounded-lg border border-gray-200 hover:shadow-md transition-shadow bg-white flex flex-col min-h-[180px]"
-              href={course.url}
+              href={experience.url}
             >
-              <h3 className="font-semibold text-lg mb-2">{course.title}</h3>
+              <h3 className="font-semibold text-lg mb-2">{experience.title}</h3>
               <div className="text-sm flex flex-col h-full">
-                <p>{course.description}</p>
-                <span className='mt-auto'><b className='text-subtitle-gray'>Tech:</b> <span className='italic'>{course.tech}</span></span>
+                <p>{experience.description}</p>
+                <span className='mt-auto'><b className='text-subtitle-gray'>Tech:</b> <span className='italic'>{experience.tech}</span></span>
               </div>
             </a>
           ))}
