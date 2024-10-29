@@ -47,14 +47,9 @@ const experiences = [
   }
 ];
 
-const handleClick = (url) => {
-  // Replace with your routing logic
-  console.log(`Navigating to: ${url}`);
-};
-
 const WorkExperience = () => {
   return (
-    <div className="min-h-screen mt-10">
+    <div className="min-h-screen max-w-6xl mx-auto mt-10">
       <SectionTitle title={SECTIONS.WORK_EXPERIENCE.title} id={SECTIONS.WORK_EXPERIENCE.id} />
 
       <div className='text-left space-y-2 mt-4'>

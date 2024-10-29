@@ -69,7 +69,7 @@ const courses = [
 
 const Education = () => {
   return (
-    <div className='min-h-screen mt-10'>
+    <div className='min-h-screen max-w-6xl mx-auto mt-10'>
         <SectionTitle title={SECTIONS.EDUCATION.title} id={SECTIONS.EDUCATION.id} />
 
         <div className='text-left space-y-2 mt-4'>

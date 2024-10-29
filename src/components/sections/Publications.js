@@ -1,12 +1,11 @@
 import React from 'react';
 import SectionTitle from '../common/SectionTitle';
 import { SECTIONS } from '../../constants/Sections';
-import URL from '../common/Url';
 import Publication from '../common/Publication';
 
 const Publications = () => {
   return (
-    <div className="min-h-screen mt-10">
+    <div className="min-h-screen max-w-6xl mx-auto mt-10">
       <SectionTitle title={SECTIONS.PUBLICATIONS.title} id={SECTIONS.PUBLICATIONS.id} />
 
       <Publication

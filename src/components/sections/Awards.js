@@ -4,7 +4,7 @@ import { SECTIONS } from '../../constants/Sections';
 
 const Awards = () => {
   return (
-    <div className='min-h-screen mt-10'>
+    <div className='min-h-screen max-w-6xl mx-auto mt-10'>
         <SectionTitle title={SECTIONS.AWARDS.title} id={SECTIONS.AWARDS.id} />
     </div>
   );

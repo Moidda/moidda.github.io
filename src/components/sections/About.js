@@ -3,7 +3,7 @@ import URL from '../common/Url';
 
 const About = () => {
   return (
-    <div id="about" className="min-h-screen">
+    <div id="about" className="min-h-screen max-w-6xl mx-auto">
         <h1 className="text-center text-4xl font-serif font-bold pt-5">
           Mehedi <span className="text-[#5b6366]">Hasan</span>
         </h1>

@@ -2,13 +2,12 @@ import React from 'react';
 import SectionTitle from '../common/SectionTitle';
 import { SECTIONS } from '../../constants/Sections';
 import Publication from '../common/Publication';
-import URL from '../common/Url';
 import { PEOPLE } from '../../constants/People';
 import { URLS } from '../../constants/Urls';
 
 const ResearchExperience = () => {
   return (
-    <div className="min-h-screen mt-10">
+    <div className="min-h-screen max-w-6xl mx-auto mt-10">
       <SectionTitle title={SECTIONS.RESEARCH_EXPERIENCE.title} id={SECTIONS.RESEARCH_EXPERIENCE.id} />
 
       <Publication
