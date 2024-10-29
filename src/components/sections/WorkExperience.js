@@ -2,36 +2,30 @@ import React from 'react';
 import SectionTitle from '../common/SectionTitle';
 import { SECTIONS } from '../../constants/Sections';
 import TitleWithYear from '../common/TitleWithYear';
-import { ExternalLink, ArrowRight } from 'lucide-react';
 
 const experiences = [
   {
     title: "ASAP Delivery",
-    url: "/asap-delivery",
     description: "Designed an algorithm to calculate geographical area overlapping a route, through which a driver can detour for a specific slack time period to deliver to a new location without impacting other deliveries in the route",
     tech: "Python, Docker, .NET",
   },
   {
     title: "Last Mile Routing",
-    url: "/asap-delivery",
     description: "Designed a new routing algorithm using different heuristic and probabilistic search methods",
     tech: "Python, Docker, .NET",
   },
   {
     title: "Traffic Estimate",
-    url: "/asap-delivery",
     description: "Developed a timeseries database and supervised an interpolation project using spatio-temporal models to fill missing traffic speed data",
     tech: "Python, ML",
   },
   {
     title: "Automate Task Assignment",
-    url: "/asap-delivery",
     description: "Designed and deployed an algorithm for solving the task assignment problem via an API endpoint, integrated into a system for periodic task assignment within the warehouse",
     tech: "F#, xUnit",
   },
   {
     title: "Microservices Communication",
-    url: "",
     description: "Designed and implemented a gRPC-based communcation system across three services to transmit information at specific events, tested in a QA environment and oversaw its system-wide deployment",
     tech: "gRPC, F#, C# .NET",
   },
@@ -41,7 +35,7 @@ const experiences = [
     tech: "Microsoft SQL Server, .NET",
   },
   {
-    title: "Re-Modeling Task AssignmentSystem",
+    title: "Re-Modeling Task Assignment System",
     description: "Designed a more efficient task assignment model, refactored existing models, redesigned the UI and improved underlying logic",
     tech: "F#, ReactXP"
   }
