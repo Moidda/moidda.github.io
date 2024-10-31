@@ -5,7 +5,7 @@ import { URLS } from '../../constants/Urls';
 
 const awards = [
   {
-    title: 'National Level Competitive Programming',
+    title: 'National Level Programming Contests',
     awards: [
       '2019 - 8th/86 BUET CSE Fest IUPC',
       '2019 - 10th/84 DUET IUPC',
@@ -21,7 +21,7 @@ const awards = [
     ]
   },
   {
-    title: 'Online Competitive Programming',
+    title: 'Online Programming Contests',
     awards: [
       'Codeforces Max Rating: Expert (1871)'
     ]
