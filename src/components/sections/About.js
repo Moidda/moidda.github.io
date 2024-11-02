@@ -46,7 +46,7 @@ const About = () => {
           <p>
               Beyond my academic and professional pursuits, I am deeply passionate
               about traveling, films, and video games. Having explored over 20 cities
-              across 5 countries, I am on a mission to visit 30 countries by the
+              across 5 countries, I am on a mission to visit 20 countries by the
               age of 40. I love playing video games and play competitive FPS matches
               with friends. I have also explored a bit of <b>Game Development</b>,
               creating several games on my own for fun. At home, I am a proud cat parent,
