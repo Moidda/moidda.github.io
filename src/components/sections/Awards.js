@@ -30,7 +30,7 @@ const awards = [
     title: 'Olympiads',
     awards: [
       '2014 - 2nd Astronomy and Astrophysics Olympiad',
-      '2015 - 15th in Regional Math Olympiad',
+      '2015 - 8th in Regional Math Olympiad',
       '2016 - 2nd in Laboratorians Festival Math Olympiad'
     ]
   }
