@@ -6,21 +6,5 @@ export const NEWS = [
     {
         date: "2023.10",
         title: "One paper accepted in EAI Mobiquitous 2023 on detecting trauma-vulnerability by analyzing attention through eye-tracking"
-    },
-    {
-        date: "2023.10",
-        title: "One paper accepted in EAI Mobiquitous 2023 on detecting trauma-vulnerability by analyzing attention through eye-tracking"
-    },
-    {
-        date: "2023.10",
-        title: "One paper accepted in EAI Mobiquitous 2023 on detecting trauma-vulnerability by analyzing attention through eye-tracking"
-    },
-    {
-        date: "2023.10",
-        title: "One paper accepted in EAI Mobiquitous 2023 on detecting trauma-vulnerability by analyzing attention through eye-tracking"
-    },
-    {
-        date: "2023.10",
-        title: "One paper accepted in EAI Mobiquitous 2023 on detecting trauma-vulnerability by analyzing attention through eye-tracking"
     }
 ];
