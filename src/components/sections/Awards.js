@@ -2,39 +2,7 @@ import React from 'react';
 import SectionTitle from '../common/SectionTitle';
 import { SECTIONS } from '../../constants/Sections';
 import { URLS } from '../../constants/Urls';
-
-const awards = [
-  {
-    title: 'National Level Programming Contests',
-    awards: [
-      '2019 - 8th/86 BUET CSE Fest IUPC',
-      '2019 - 10th/84 DUET IUPC',
-      '2019 - 13th/59 NSU Cybernauts National Programming Contest',
-      '2019 - 13th/96 RUET IUPC',
-      '2019 - 14th/96 IUT IUPC'
-    ]
-  },
-  {
-    title: 'Hackathons',
-    awards: [
-      '2022 - 5th/50 Code Samurai Hackathon'
-    ]
-  },
-  {
-    title: 'Online Programming Contests',
-    awards: [
-      'Codeforces Max Rating: Expert (1871)'
-    ]
-  },
-  {
-    title: 'Olympiads',
-    awards: [
-      '2014 - 2nd Astronomy and Astrophysics Olympiad',
-      '2015 - 8th in Regional Math Olympiad',
-      '2016 - 2nd in Laboratorians Festival Math Olympiad'
-    ]
-  }
-];
+import { AWARDS } from '../../constants/Awards';
 
 
 const AwardCertificate = ({ awardCategory }) => {
@@ -64,7 +32,7 @@ const Awards = () => {
       <SectionTitle title={SECTIONS.AWARDS.title} id={SECTIONS.AWARDS.id} />
 
       <div className="space-y-4">
-        {awards.map((awardCategory, index) => (
+        {AWARDS.map((awardCategory, index) => (
           <AwardCertificate key={index} awardCategory={awardCategory} />
         ))}
       </div>

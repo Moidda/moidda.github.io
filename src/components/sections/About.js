@@ -1,17 +1,19 @@
 import React from 'react';
 import URL from '../common/Url';
+import RecentNews from '../common/RecentNews';
 
 const About = () => {
   return (
     <div id="about" className="min-h-screen max-w-6xl mx-auto">
-        <h1 className="text-center text-4xl font-serif font-bold pt-5">
-          Mehedi <span className="text-[#5b6366]">Hasan</span>
-        </h1>
-        <span>Software Engineer, Prospective Phd Student</span>
-        <br />
-        <span>Dhaka, Bangladesh</span>
+      <h1 className="text-center text-4xl font-serif font-bold pt-5">
+        Mehedi <span className="text-[#5b6366]">Hasan</span>
+      </h1>
+      <span>Software Engineer, Prospective Phd Student</span>
+      <br />
+      <span>Dhaka, Bangladesh</span>
 
-        <div className="text-left space-y-6 text-black mt-4">
+      <div className="flex flex-row space-x-1">
+        <div className="w-3/4 text-left space-y-6 text-black mt-4">
           <p>
               I am a Software Engineer (L3) <b>Specializing in Research and Algorithms</b> at{' '}
               <URL url="https://chaldal.tech/" text="Chaldal" />. I graduated from{' '}
@@ -55,6 +57,10 @@ const About = () => {
               a cause close to our hearts.
           </p>
         </div>
+        <div className="w-1/4 overflow-auto h-96 rounded">
+          <RecentNews />
+        </div>
+      </div>
     </div>
   );
 };
