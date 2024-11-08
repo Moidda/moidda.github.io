@@ -4,7 +4,7 @@ export const PEOPLE = {
         first_name: 'Taseen',
         last_name: 'Mubassira',
         full_name: 'Taseen Mubassira',
-        url: 'https://scholar.google.com/citations?user=1yrkvxIAAAAJ&hl=en',
+        url: 'https://tashinmubassira.github.io/',
         institution: 'BUET'
     },
     SADIA_SHARMIN: {
