@@ -12,7 +12,7 @@ const Sidebar = ({ activeSection, scrollToSection }) => {
         <img
           src={URLS.PROFILE}
           alt="Profile"
-          className="rounded-full w-32 h-32 mx-auto"
+          className="rounded-full w-40 h-40 mx-auto"
         />
       </div>
       
@@ -22,6 +22,7 @@ const Sidebar = ({ activeSection, scrollToSection }) => {
         <span className="text-white">Mehedi </span>
         <span className="text-white">Hasan</span>
       </h1>
+      <h2 className='font-serif text-white'>Prospective Ph.D. Student, Software Engineer</h2>
 
       <div className="mb-6 mt-6">
         <SocialLinks />
