@@ -1,7 +1,7 @@
 export const NEWS = [
     {
         date: "2024.11",
-        title: "One paper accepted in NSys 2024 on enhancing EmoBot using user feedback"
+        title: "One paper accepted in NSysS 2024 on usability testing and analysis of user expectation in emotion-aware chatbot"
     },
     {
         date: "2023.10",
