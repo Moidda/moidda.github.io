@@ -3,6 +3,11 @@ import { NEWS } from '../../constants/News';
 
 const showCount = 5;
 
+// Function to safely render HTML content
+const createMarkup = (htmlContent) => {
+    return { __dangerouslySetInnerHTML: { __html: htmlContent } };
+};
+
 const RecentNews = () => {
     return (
         <>
@@ -11,7 +16,7 @@ const RecentNews = () => {
             {NEWS.slice(0, showCount).map((news, index) => (
                 <li key={index} className="flex flex-col text-left items-top">
                     <span className="mr-2 font-bold">{news.date}</span>
-                    <span>{news.title}</span>
+                    <span>{news.title.prefix}<strong>{news.title.bold}</strong></span>
                 </li>
             ))}
         </ul>
