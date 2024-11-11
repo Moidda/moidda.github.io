@@ -30,6 +30,11 @@ export const SECTIONS = {
         title: 'Skills',
         shouldInclude: false
     },
+    PROJECTS: {
+        id: 'projects',
+        label: "PROJECTS",
+        title: "Selected Projects"
+    },
     AWARDS: {
         id: 'awards',
         label: 'AWARDS',
