@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Sidebar from './layouts/Sidebar';
 import About from './sections/About';
+import Projects from './sections/Projects';
 import Publications from './sections/Publications';
 import ResearchExperience from './sections/ResearchExperience';
 import Education from './sections/Education';
@@ -50,6 +51,7 @@ const Portfolio = () => {
         <ResearchExperience />
         <Education />
         <WorkExperience />
+        <Projects />
         <Awards />
       </div>
     </div>
