@@ -9,7 +9,7 @@ const Publication = ({ doi, title, year, collaborators, demo, description, confe
 
             {
                 collaborators && (
-                    <p className="text-lg">
+                    <p>
                         <span className='text-subtitle-gray'>Collaborators:</span>{' '}
                         {collaborators.map((collaborator, index) => (
                             <span key={index}>
@@ -23,7 +23,7 @@ const Publication = ({ doi, title, year, collaborators, demo, description, confe
 
             {
                 conference && (
-                    <p className='text-lg'>
+                    <p>
                         <span className='text-subtitle-gray'>Conference:</span>{' '}
                         <URL url={conference.url} text={conference.name} />
                     </p>
@@ -31,14 +31,14 @@ const Publication = ({ doi, title, year, collaborators, demo, description, confe
             }
 
             { doi &&
-                <p className='text-lg text-left'>
+                <p className='text-left'>
                     <span className='text-subtitle-gray'>DOI:</span>{' '}
                     <URL url={doi} text={doi} />
                 </p>
             }
 
             { demo &&
-                <p className='text-lg text-left'>
+                <p className='text-left'>
                     <span className='text-subtitle-gray'>{demo.title}:</span>{' '}
                     <URL url={demo.url} text={demo.text} />
                 </p>

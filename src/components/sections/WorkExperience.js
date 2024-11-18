@@ -2,6 +2,7 @@ import React from 'react';
 import SectionTitle from '../common/SectionTitle';
 import { SECTIONS } from '../../constants/Sections';
 import TitleWithYear from '../common/TitleWithYear';
+import URL from '../common/Url';
 
 const experiences = [
   {
@@ -47,21 +48,21 @@ const WorkExperience = () => {
       <SectionTitle title={SECTIONS.WORK_EXPERIENCE.title} id={SECTIONS.WORK_EXPERIENCE.id} />
 
       <div className='text-left space-y-2 mt-4'>
-        <p className='text-3xl font-semibold'>CHALDAL TECH</p>
+        <p className='text-xl font-semibold'><URL url="https://chaldal.tech/" text="CHALDAL TECH"/></p>
 
         <div className='pt-4'>
           <TitleWithYear title="Software Engineer III" year="Jul 2024 - Present"/>
-          <p className="text-lg text-subtitle-gray font-semibold">SPECIALIZED IN RESEARCH AND ALGORITHMS</p>
+          <p className="text-subtitle-gray font-semibold">SPECIALIZED IN RESEARCH AND ALGORITHMS</p>
         </div>
 
         <div className='pt-4'>
           <TitleWithYear title="Software Engineer III" year="Mar 2024 - Jul 2024"/>
-          <p className="text-lg text-subtitle-gray font-semibold">LOGISTICS TEAM</p>
+          <p className="text-subtitle-gray font-semibold">LOGISTICS TEAM</p>
         </div>
 
         <div className='pt-4'>
           <TitleWithYear title="Software Engineer II" year="Jun 2023 - Feb 2024"/>
-          <p className="text-lg text-subtitle-gray font-semibold">DISPATCHER TEAM</p>
+          <p className="text-subtitle-gray font-semibold">DISPATCHER TEAM</p>
         </div>
 
 
@@ -73,7 +74,7 @@ const WorkExperience = () => {
               className="p-4 rounded-lg border border-gray-200 hover:shadow-md transition-shadow bg-white flex flex-col min-h-[180px]"
               href={experience.url}
             >
-              <h3 className="font-semibold text-lg mb-2">{experience.title}</h3>
+              <h3 className="font-semibold mb-2">{experience.title}</h3>
               <div className="text-sm flex flex-col h-full">
                 <p>{experience.description}</p>
                 <span className='mt-auto'><b className='text-subtitle-gray'>Tech:</b> <span className='italic'>{experience.tech}</span></span>

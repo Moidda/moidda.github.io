@@ -8,8 +8,6 @@ const About = () => {
       <h1 className="text-center text-4xl font-serif font-bold pt-5">
         Mehedi <span className="text-[#5b6366]">Hasan</span>
       </h1>
-      <span>Software Engineer, Prospective Phd Student</span>
-      <br />
       <span>Dhaka, Bangladesh</span>
 
       <div className="flex flex-row space-x-1">

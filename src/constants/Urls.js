@@ -17,4 +17,5 @@ export const URLS = {
     IMG_CNN:           encodeURI(getPublicPath('/images/CNN.png')),
     IMG_CHALDAAL:      encodeURI(getPublicPath('/images/Chaldaal.png')),
     IMG_CODESAMURAI:   encodeURI(getPublicPath('/images/Smart Construction Work System.png')),
+    IMG_HANDGESTURE:   encodeURI(getPublicPath('/images/hand-gesture.webp')),
 };

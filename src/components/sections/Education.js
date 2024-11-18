@@ -75,8 +75,8 @@ const Education = () => {
         <div className='text-left space-y-2 mt-4'>
           <TitleWithYear title='Bangladesh University of Engineering and Technology (BUET)' year='March 2018 - June 2024' />
           <div>
-            <p className="text-lg text-subtitle-gray font-semibold">BACHELOR OF SCIENCE</p>
-            <p className="text-lg text-subtitle-gray font-semibold">COMPUTER SCIENCE AND ENGINEERING</p>
+            <p className="text-subtitle-gray font-semibold">BACHELOR OF SCIENCE</p>
+            <p className="text-subtitle-gray font-semibold">COMPUTER SCIENCE AND ENGINEERING</p>
           </div>
           <div className='pt-4'>
             <p>GPA: 3.57/4.00</p>
@@ -91,7 +91,7 @@ const Education = () => {
                 className="p-4 rounded-lg border border-gray-200 hover:shadow-md transition-shadow bg-white"
                 href={course.url}
               >
-                <h3 className="font-semibold text-lg mb-2">{course.title}</h3>
+                <h3 className="font-semibold mb-2">{course.title}</h3>
                 <p className="text-sm flex flex-col h-full">{course.topics}</p>
               </a>
             ))}

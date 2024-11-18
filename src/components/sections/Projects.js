@@ -12,18 +12,18 @@ const projects = [
         url: "https://moidda.github.io/P5js-Raycasting/"
     },
     {
-        title: "CNN from Scratch",
-        description: "Implementation of a convolutional neural network using Python and NumPy, trained on the NumtaDB dataset to recognize Bengali digits",
-        tech: "Python",
-        image: URLS.IMG_CNN,
-        url: "https://github.com/Moidda/Level-4-Term-2-sessionals/tree/main/CSE%20472%20Machine%20Learning%20Sessional/CNN"
+        title: "Smart Construction System",
+        description: "Citywide smart construction management system that given the availability of resources and different environmental factors, can predict the duration of certain projects and plan accordingly",
+        tech: "Django",
+        image: URLS.IMG_CODESAMURAI,
+        url: "https://www.youtube.com/watch?v=Edxe6fTzqfA"
     },
     {
-        title: "xv6 Memory Management",
-        description: "Paging support in xv6 operating system",
-        tech: "C",
-        image: URLS.IMG_XV6,
-        url: "https://github.com/Moidda/xv6-Memory-Management"
+        title: "Hand Gesture Based Laptop Controller",
+        description: "An ultrasonic distance sensor and microcontroller based system which detects hand gestures and can simulate some keypresses in a laptop",
+        tech: "Microcontrollers",
+        image: URLS.IMG_HANDGESTURE,
+        url: "https://www.youtube.com/watch?v=sOLE_DEBOi0"
     },
     {
         title: "Trapped",
@@ -40,11 +40,18 @@ const projects = [
         url: "https://github.com/Moidda/chaldaal"
     },
     {
-        title: "Smart Construction Work System",
-        description: "Citywide smart construction management system that given the availability of resources and different environmental factors, can predict the duration of certain projects and plan accordingly",
-        tech: "Django",
-        image: URLS.IMG_CODESAMURAI,
-        url: "https://www.youtube.com/watch?v=Edxe6fTzqfA"
+        title: "CNN from Scratch",
+        description: "Implementation of a convolutional neural network using Python and NumPy, trained on the NumtaDB dataset to recognize Bengali digits",
+        tech: "Python",
+        image: URLS.IMG_CNN,
+        url: "https://github.com/Moidda/Level-4-Term-2-sessionals/tree/main/CSE%20472%20Machine%20Learning%20Sessional/CNN"
+    },
+    {
+        title: "xv6 Memory Management",
+        description: "Paging support in xv6 operating system",
+        tech: "C",
+        image: URLS.IMG_XV6,
+        url: "https://github.com/Moidda/xv6-Memory-Management"
     }
 ];
 
@@ -62,7 +69,7 @@ const Projects = () => {
                     href={project.url}
                 >
                     <img src={project.image} alt={project.title} />
-                    <h3 className="font-semibold text-lg mt-2 mb-2">{project.title}</h3>
+                    <h3 className="font-semibold mt-2 mb-2">{project.title}</h3>
                     <div className="text-sm text-left flex flex-col h-full">
                         <p>{project.description}</p>
                         <span className='mt-auto'><b className='text-subtitle-gray'>Tech:</b> <span className='italic'>{project.tech}</span></span>
