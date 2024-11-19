@@ -24,9 +24,9 @@ const About = () => {
               of research experience is in <b>Human Computer Interaction</b>.
               I am also passionate about <b>Visualization</b>, <b>VR/AR</b>, and{' '}
               <b>Ubiquitous technologies</b>. The goal that I tend to seek
-              in my research work is to make technology more accessible
-              and user-friendly for everyone while also ensuring that it is
-              secure and reliable.
+              in my research work is to make technology more <b>accessible</b>{' '}
+              and user-friendly for everyone while also ensuring that it is{' '}
+              <b>secure</b> and <b>reliable</b>.
           </p>
 
           <p>
