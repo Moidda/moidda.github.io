@@ -28,7 +28,7 @@ const ResearchExperience = () => {
       />
 
       <Publication
-        doi="10.1109/NSYSS2.2017.8267790"
+        doi="https://doi.org/10.1109/NSYSS2.2017.8267790"
         title="Towards perceiving and resolving the impediments to reporting for the developing countries"
         year="2024"
         collaborators={[
