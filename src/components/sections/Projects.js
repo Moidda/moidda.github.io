@@ -26,6 +26,13 @@ const projects = [
         url: "https://www.youtube.com/watch?v=sOLE_DEBOi0"
     },
     {
+        title: "Codingame: Steal The Flag",
+        description: "Code your own bots to play against opponents. Capture opponent's flag and take it to your base before them!",
+        tech: "Java",
+        image: URLS.IMG_STEALTHEFLAG,
+        url: "https://www.codingame.com/ide/demo/9421946f2e2ee3b64f9d10ff8e195b67d51dff"
+    },
+    {
         title: "Trapped",
         description: "A 2D action and puzzle platformer with multiple endings. You can download and play the game for yourself",
         tech: "Unity Game Engine",
