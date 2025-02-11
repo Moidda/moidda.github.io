@@ -2,6 +2,8 @@ import React from 'react';
 import URL from '../common/Url';
 import RecentNews from '../common/RecentNews';
 
+// Dummy
+
 const About = () => {
   return (
     <div id="about" className="min-h-screen max-w-6xl mx-auto">
