@@ -22,7 +22,7 @@ const Sidebar = ({ activeSection, scrollToSection }) => {
         <span className="text-white">Mehedi </span>
         <span className="text-white">Hasan</span>
       </h1>
-      <h2 className='font-serif text-white'>Prospective Ph.D. Student, Software Engineer</h2>
+      <h2 className='font-serif text-white'>Ph.D. Student, University of California Riverside</h2>
 
       <div className="mb-6 mt-6">
         <SocialLinks />
