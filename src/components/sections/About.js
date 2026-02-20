@@ -15,7 +15,7 @@ const About = () => {
       <div className="flex flex-row space-x-1">
         <div className="w-3/4 text-left space-y-6 text-black mt-4">
           <p>
-              I am a Software Engineer (L3) <b>Specializing in Research and Algorithms</b> at{' '}
+              I am a first year PhD student at University of California, Riverside. Before that I was a Software Engineer (L3) <b>Specializing in Research and Algorithms</b> at{' '}
               <URL url="https://chaldal.tech/" text="Chaldal" />. I graduated from{' '}
               <URL url="https://www.buet.ac.bd/web/#/" text="Bangladesh University of Engineering and Technology (BUET)" />{' '}
               with a B.Sc in Computer Science and Engineering.
